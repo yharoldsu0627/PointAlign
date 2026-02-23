@@ -1,17 +1,26 @@
 # PointAlign: Feature-Level Alignment Regularization for 3D Vision-Language Models
 
-## Installation
+## Installation and Data Preparation
+```bash
+git clone https://github.com/HaroldYUANHAOSU/PointAlign.git
+cd PointAlign
+```
 
-Please follow the installation instructions from [MiniGPT-3D](https://github.com/TangYuan96/MiniGPT-3D).
+For detailed setup instructions, please refer to [MiniGPT-3D](https://github.com/TangYuan96/MiniGPT-3D).
 
-## Data Preparation
+## Pretrained Weights
 
-Please follow the data preparation instructions from [MiniGPT-3D](https://github.com/TangYuan96/MiniGPT-3D).
+Download the pretrained weights from [Baidu Pan](https://pan.baidu.com/s/1QQ65gGhagQmrVjt96GDY3A?pwd=x7n5) (extraction code: `x7n5`) and place them under `./params_weight/` before training:
+```
+./params_weight/
+└── <weight_file>
+```
 
 ## Training
 
+Modify `finetune.yaml` to set your data paths, then run:
 ```bash
-torchrun --nproc_per_node 4 train.py --cfg-path ./train_configs/MiniGPT_3D/stage_2.yaml
+CUDA_VISIBLE_DEVICES=0 python train.py --cfg-path finetune.yaml
 ```
 
 ## Evaluation
