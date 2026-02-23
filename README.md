@@ -2,7 +2,7 @@
 
 ## Installation and Data Preparation
 ```bash
-git clone [https://github.com/HaroldYUANHAOSU/PointAlign.git](https://github.com/yharoldsu0627/PointAlign.git)
+git clone https://github.com/yharoldsu0627/PointAlign.git
 cd PointAlign
 ```
 
