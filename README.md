@@ -68,10 +68,6 @@ CUDA_VISIBLE_DEVICES=0 python train.py --cfg-path finetune.yaml
 
 Please follow the evaluation instructions from [MiniGPT-3D](https://github.com/TangYuan96/MiniGPT-3D).
 
-## Contact
-
-If you have any questions related to the code or the paper, feel free to email Yuanhao (`yharoldsu0627@gmail.com`).
-
 ## Acknowledgement
 
 This project builds upon [**MiniGPT-3D**](https://github.com/TangYuan96/MiniGPT-3D). We thank the authors for their excellent codebase.
