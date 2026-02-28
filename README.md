@@ -34,7 +34,7 @@ PointAlign enhances 3D vision-language understanding through **feature-level ali
 ### Qualitative Results
 
 <div align="center">
-  <img src="assets/qualitative_result.jpg" width="70%" />
+  <img src="assets/quanlitative_result.jpg" width="70%" />
 </div>
 <p align="center">Figure 2. Qualitative Results.</p>
 
