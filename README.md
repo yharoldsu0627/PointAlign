@@ -19,23 +19,24 @@ If you find PointAlign useful, please consider giving us a star ⭐.
 
 ### Introduction
 
-<div align="center">
-  <img src="https://github.com/yharoldsu0627/PointAlign/assets/framework.pdf" width="70%" />
-</div>
-<p align="center">Figure 1. Overview of PointAlign.</p>
-
 🔍
 **Geometric Information Degradation:** Existing 3D VLMs rely solely on next-token prediction loss, causing valuable geometric cues to be discarded during training. PointAlign addresses this by explicitly supervising intermediate point cloud tokens within the LLM to preserve fine-grained 3D geometric-semantic information throughout the language modeling process.
 
 ### Overview
 
-<!-- 在这里插入你的 Framework Overview 图片，步骤见文末 -->
+<div align="center">
+  <img src="https://github.com/yharoldsu0627/PointAlign/assets/framework.jpg" width="70%" />
+</div>
+<p align="center">Figure 1. Overview of PointAlign.</p>
 
 PointAlign enhances 3D vision-language understanding through **feature-level alignment regularization** — a cosine similarity loss that aligns intermediate point cloud tokens in the LLM with Q-Former outputs. The alignment projector is used **only during training** and discarded at inference, introducing **zero additional inference overhead**.
 
 ### Qualitative Results
 
-<!-- 在这里插入定性对比图/表，步骤见文末 -->
+<div align="center">
+  <img src="https://github.com/yharoldsu0627/PointAlign/assets/qualitative_result.jpg" width="70%" />
+</div>
+<p align="center">Figure 2. Qualitative Results.</p>
 
 ## ⚙️ Quick Start
 
