@@ -1,5 +1,5 @@
 # PointAlign (CVPR 2026)
-### [Paper](https://arxiv.org/abs/xxxx.xxxxx) | [Code](https://github.com/yharoldsu0627/PointAlign)
+### [Paper](https://arxiv.org/abs/2603.00412) | [Code](https://github.com/yharoldsu0627/PointAlign)
 > PointAlign: Feature-Level Alignment Regularization for 3D Vision-Language Models\
 > Yuanhao Su, Shaofeng Zhang, Xiaosong Jia, Qi Fan\
 > CVPR 2026
